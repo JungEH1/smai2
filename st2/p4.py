@@ -7,6 +7,8 @@ st.sidebar.markdown("Clicked Page 4")
 
 # Page
 st.title("page 4")
+st.audio("data/tts_audio.mp3")
+
 image=Image.open("img/shin.png")
 st.image(image, caption="예제 이미지", use_container_width=True)
 
